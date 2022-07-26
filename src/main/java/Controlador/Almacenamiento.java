@@ -39,4 +39,9 @@ public class Almacenamiento {
         poolcamisas.add(camisanueva);
         return false;
     }
+    public static boolean agregarCatalogo (String nombre, String FechaCreacion, int Id){
+        Catalogos catalogonuevo = new Catalogos(nombre, FechaCreacion, Id);
+        poolcatalogos.add(catalogonuevo);
+        return false;
+    }
 }

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se enlaza AgregarCatalogos con su respectivo FXML">
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" afterDir="false" />
-    </list>
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se enlaza AgregarCamisas con su respectivo FXML" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="3097000" />
+      <workItem from="1658864596632" duration="3444000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658867701888</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Se enlaza AgregarCamisas con su respectivo FXML">
+      <created>1658867735887</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658867735887</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +211,7 @@
     <MESSAGE value="Se le actualiza el HelloApplication para el funcionamiento correcto de la ventana inicial." />
     <MESSAGE value="Se enlaza AgregarClientes con su respectivo FXML" />
     <MESSAGE value="Se enlaza AgregarCatalogos con su respectivo FXML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se enlaza AgregarCatalogos con su respectivo FXML" />
+    <MESSAGE value="Se enlaza AgregarCamisas con su respectivo FXML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se enlaza AgregarCamisas con su respectivo FXML" />
   </component>
 </project>

@@ -10,22 +10,34 @@ public class Camisas {
 
     private String Tamannio;
 
+    private String Imagen;
+
     private int ID;
 
-    public Camisas(String color, float precio, String desc, String tamannio, int Id) {
+    public Camisas(String color, float precio, String desc, String tamannio, String img, int Id) {
         Color = color;
         Precio = precio;
         Desc = desc;
         Tamannio = tamannio;
+        Imagen = img;
         ID = Id;
 
     }
-    public Camisas(String color, String desc, float precios, String tamannio, int id){
+    public Camisas(String color, String desc, float precios, String tamannio, String Img, int id){
         Color = color;
         Desc = desc;
         Precio = precios;
         Tamannio = tamannio;
+        Imagen = Img;
         ID = id;
+    }
+
+    public String getImagen() {
+        return Imagen;
+    }
+
+    public void setImagen(String imagen) {
+        Imagen = imagen;
     }
 
     public int getID() {
@@ -83,7 +95,8 @@ public class Camisas {
                 "Color='" + Color + '\'' +
                 ", Precio=" + Precio +
                 ", Desc='" + Desc + '\'' +
-                ", Tamannio=" + Tamannio +
+                ", Tamannio='" + Tamannio + '\'' +
+                ", Imagen='" + Imagen + '\'' +
                 ", ID=" + ID +
                 '}';
     }

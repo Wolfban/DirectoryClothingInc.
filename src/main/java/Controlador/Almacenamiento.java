@@ -34,8 +34,8 @@ public class Almacenamiento {
         return hayError;
     }
 
-    public static boolean agregarCamisa (String nombre, float precios, String Descripcion, String Tamannio, int Id) {
-        Camisas camisanueva = new Camisas(nombre, precios, Descripcion, Tamannio, Id);
+    public static boolean agregarCamisa (String nombre, float precios, String Descripcion, String Tamannio, String Img, int Id) {
+        Camisas camisanueva = new Camisas(nombre, precios, Descripcion, Tamannio, Img,  Id);
         poolcamisas.add(camisanueva);
         return false;
     }
@@ -74,5 +74,6 @@ public class Almacenamiento {
 
         return Error;
     }
+
 
 }

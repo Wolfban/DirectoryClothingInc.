@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se enlaza AgregarCamisaAlCatalogo con su respectivo FXML" />
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se crean los tres ArrayList de los tres distintos Modelos.">
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="3743000" />
+      <workItem from="1658864596632" duration="4047000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -177,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658868116151</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Se crea el .java de Almacenamiento donde se conservaran todos los array de los datos de los usuarios, las camisas y los catalogos. Ademas contendra las funciones a utilizar para el correcto funcionamiento del programa">
+      <created>1658868462646</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658868462646</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Se crean los tres ArrayList de los tres distintos Modelos.">
+      <created>1658868646644</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658868646644</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +236,8 @@
     <MESSAGE value="Se enlaza AgregarCatalogos con su respectivo FXML" />
     <MESSAGE value="Se enlaza AgregarCamisas con su respectivo FXML" />
     <MESSAGE value="Se enlaza AgregarCamisaAlCatalogo con su respectivo FXML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se enlaza AgregarCamisaAlCatalogo con su respectivo FXML" />
+    <MESSAGE value="Se crea el .java de Almacenamiento donde se conservaran todos los array de los datos de los usuarios, las camisas y los catalogos. Ademas contendra las funciones a utilizar para el correcto funcionamiento del programa" />
+    <MESSAGE value="Se crean los tres ArrayList de los tres distintos Modelos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crean los tres ArrayList de los tres distintos Modelos." />
   </component>
 </project>

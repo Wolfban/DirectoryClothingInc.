@@ -1,0 +1,33 @@
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1250.0" style="-fx-background-color: #fdcae1;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.directoryclothinginc.AgregarClientes">
+    <children>
+        <TextArea layoutX="-209.0" layoutY="125.0" prefHeight="200.0" prefWidth="200.0" />
+        <Text layoutX="578.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="                                                             CREACIÓN DE USUARIO" wrappingWidth="164.80331420898438" />
+        <Button fx:id="btnAgregar" layoutX="139.0" layoutY="815.0" mnemonicParsing="false" onAction="#click" text="Agregar" />
+        <TableView fx:id="tblUsusarios" layoutX="414.0" layoutY="176.0" prefHeight="521.0" prefWidth="749.0">
+            <columns>
+                <TableColumn fx:id="colmID" prefWidth="122.66659545898438" text="ID" />
+                <TableColumn fx:id="ColmNombre" prefWidth="84.66668701171875" text="Nombre" />
+                <TableColumn fx:id="ColmApellido1" prefWidth="102.6666259765625" text="Primer Apellido" />
+                <TableColumn fx:id="ColmApellido2" prefWidth="116.666748046875" text="Segundo Apellido" />
+                <TableColumn fx:id="ColmEmail" prefWidth="128.6666259765625" text="Correo Electrónico" />
+                <TableColumn fx:id="ColmDireccion" prefWidth="196.00006103515625" text="Dirección " />
+            </columns>
+        </TableView>
+        <TextField fx:id="txtNombre" layoutX="55.0" layoutY="151.0" prefHeight="25.0" prefWidth="200.0" />
+        <TextField fx:id="txtApellido1" layoutX="55.0" layoutY="253.0" prefHeight="25.0" prefWidth="200.0" />
+        <Label layoutX="60.0" layoutY="76.0" prefHeight="67.0" prefWidth="157.0" text="Nombre" />
+        <Label layoutX="55.0" layoutY="216.0" prefHeight="17.0" prefWidth="122.0" text="Primer Apellido" />
+        <Label layoutX="55.0" layoutY="325.0" prefHeight="17.0" prefWidth="122.0" text="Segundo Apellido" />
+        <TextField fx:id="txtApellido2" layoutX="55.0" layoutY="373.0" prefHeight="25.0" prefWidth="200.0" />
+        <Label layoutX="60.0" layoutY="450.0" prefHeight="17.0" prefWidth="122.0" text="Correo Electronico  " />
+        <TextField fx:id="txtCorreo" layoutX="55.0" layoutY="488.0" prefHeight="25.0" prefWidth="200.0" />
+        <Label layoutX="60.0" layoutY="544.0" prefHeight="17.0" prefWidth="122.0" text="ID" />
+        <TextField fx:id="txtID" layoutX="55.0" layoutY="589.0" prefHeight="25.0" prefWidth="200.0" />
+        <Label layoutX="60.0" layoutY="642.0" prefHeight="17.0" prefWidth="122.0" text="Dirección exacta" />
+        <TextField fx:id="txtDireccion" layoutX="55.0" layoutY="673.0" prefHeight="86.0" prefWidth="200.0" />
+    </children>
+</AnchorPane>

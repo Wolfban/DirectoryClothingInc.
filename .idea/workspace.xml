@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se enlaza el Menu controlador con el Menu FXML">
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/Menu.java" afterDir="false" />
-    </list>
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se le actualiza el HelloApplication para el funcionamiento correcto de la ventana inicial." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="2465000" />
+      <workItem from="1658864596632" duration="2787000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -137,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658867031332</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Se agrega la funcion del click de cada boton del Menu y se enlaza las funciones de cerrar las ventanas al tocar la X en el fxml">
+      <created>1658867280021</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658867280021</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Se le actualiza el HelloApplication para el funcionamiento correcto de la ventana inicial.">
+      <created>1658867387270</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658867387271</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +186,8 @@
     <MESSAGE value="Se agrega el modelo Usuarios" />
     <MESSAGE value="Se crean todos los controladores de cada FXML creado anteriormente" />
     <MESSAGE value="Se enlaza el Menu controlador con el Menu FXML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se enlaza el Menu controlador con el Menu FXML" />
+    <MESSAGE value="Se agrega la funcion del click de cada boton del Menu y se enlaza las funciones de cerrar las ventanas al tocar la X en el fxml" />
+    <MESSAGE value="Se le actualiza el HelloApplication para el funcionamiento correcto de la ventana inicial." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se le actualiza el HelloApplication para el funcionamiento correcto de la ventana inicial." />
   </component>
 </project>

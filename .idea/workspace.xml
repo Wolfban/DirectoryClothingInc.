@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc/hello-view.fxml" beforeDir="false" />
-    </list>
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se agrega el modelo Camisas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -22,12 +25,15 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DirectoryClothingInc" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CUkYDH10IAexjq7kEGK0CW9JQK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,9 +43,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ExtremeTech/Desktop/Tarea/tarea/DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ExtremeTech\Desktop\Tarea\tarea\DirectoryClothingInc\src\main\resources\com\example\directoryclothinginc" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Modelo" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,8 +63,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="426000" />
+      <workItem from="1658864596632" duration="1777000" />
     </task>
+    <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
+      <created>1658865330287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658865330287</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se agregan los modelos de los objetos a usar en el proyecto, los cuales son: Camisas, Catalogos y los Usuarios.">
+      <created>1658865749114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658865749114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se agrega el modelo Usuarios">
+      <created>1658866099038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658866099038</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Se agrega el modelo Catalogos">
+      <created>1658866147933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658866147933</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Se agrega el modelo Camisas">
+      <created>1658866177492</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658866177492</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,10 +111,30 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se agregan los FXML a utilizar en el proyecto" />
+    <MESSAGE value="Se agregan los modelos de los objetos a usar en el proyecto, los cuales son: Camisas, Catalogos y los Usuarios." />
+    <MESSAGE value="Se agrega el modelo Usuarios" />
+    <MESSAGE value="Se agrega el modelo Catalogos" />
+    <MESSAGE value="Se agrega el modelo Camisas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega el modelo Camisas" />
   </component>
 </project>

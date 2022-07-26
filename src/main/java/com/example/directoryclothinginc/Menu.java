@@ -65,7 +65,7 @@ public class Menu implements Initializable {
 
     @FXML
     void Click(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("AgregarClientes.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("AgregarCliente.fxml"));
 
 
         Parent root = loader.load();

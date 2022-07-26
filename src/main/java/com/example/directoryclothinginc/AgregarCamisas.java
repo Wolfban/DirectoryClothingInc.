@@ -1,6 +1,7 @@
 package com.example.directoryclothinginc;
 
 
+import Controlador.Almacenamiento;
 import Modelo.Camisas;
 import Modelo.Usuarios;
 import javafx.collections.FXCollections;
@@ -13,14 +14,18 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.UUID;
 
-public class AgregarCamisas {
+public class AgregarCamisas implements Initializable {
 
     @FXML
     private Button btnCrear;
@@ -54,12 +59,96 @@ public class AgregarCamisas {
 
     @FXML
     private TextField txtPrecio;
+    @FXML
+    private Label imgLabel;
+
+    @FXML
+    private ImageView imgCa;
+
 
     @FXML
     private TextField txtTamannio;
 
+    @FXML
+    private Button btnAgregarIMG;
+
+    private String Imagen = "";
+
+    public void buscarImagen() {
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Buscar Imagen");
+
+        fileChooser.getExtensionFilters().addAll(
+                new FileChooser.ExtensionFilter("All Images", "*.*"),
+                new FileChooser.ExtensionFilter("JPG", "*.jpg"),
+                new FileChooser.ExtensionFilter("PNG", "*.png")
+        );
+
+        File imgFile = fileChooser.showOpenDialog(null);
+        if (imgFile != null) {
+            imgLabel.setText(imgFile.toString());
+            imgCa.setImage(new Image(imgFile.toURI().toString()));
+            Imagen = imgFile.toString();
+        }
+    }
+    @FXML
+    void Click(ActionEvent event) {
+        buscarImagen();
+    }
+
 
     ObservableList<Camisas> camisas = FXCollections.observableArrayList();
+    @FXML
+    void click(ActionEvent event) {
+        try {
+            String color = this.txtColor.getText();
+            String desc = this.txtDescripcion.getText();
+            float precios = Integer.parseInt(this.txtPrecio.getText());
+            String tamannio =this.txtTamannio.getText();
+            int id = (int) (Math.random()*(999999999-100000000+1)+100000000);
+            boolean error = Almacenamiento.agregarCamisa(color, precios, desc, tamannio, Imagen, id);
+            if(error == false){
+                for (Camisas camisaMostrar: Almacenamiento.poolcamisas){
+                    this.camisas.add(camisaMostrar);
+                    tblCamisa.getItems().clear();
+                    CargarDatos();
+                }
+
+            } else {
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setHeaderText(null);
+                alert.setTitle("Error");
+                alert.setContentText("Formato Incorrecto");
+                alert.showAndWait();
+            }
+        } catch (NumberFormatException e) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setHeaderText(null);
+            alert.setTitle("Error");
+            alert.setContentText("Formato Incorrecto");
+            alert.showAndWait();
+        }
+
+    }
+
+
+
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        CargarDatos();
+    }
+
+    public void CargarDatos(){
+        camisas.addAll(Almacenamiento.poolcamisas);
+        coluDesc.setCellValueFactory(new PropertyValueFactory("desc"));
+        coluID.setCellValueFactory(new PropertyValueFactory("ID"));
+        coluColor.setCellValueFactory(new PropertyValueFactory("color"));
+        coluPrecio.setCellValueFactory(new PropertyValueFactory("precio"));
+        coluImg.setCellValueFactory(new PropertyValueFactory("Imagen"));
+        coluTamannio.setCellValueFactory(new PropertyValueFactory("tamannio"));
+        tblCamisa.setItems(camisas);
+    }
     public void closeWindows() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("menu.fxml"));
 

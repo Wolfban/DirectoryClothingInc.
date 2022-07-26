@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se enlaza AgregarCamisas con su respectivo FXML" />
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se arreglo ciertos errores en los fxml y el menu">
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Modelo/Camisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Modelo/Camisas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc/AgregarCamisa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc/AgregarCamisa.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../DirectoryClothingInc" value="Modelos" />
+        <entry key="$PROJECT_DIR$/../DirectoryClothingInc" value="Controladores" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DirectoryClothingInc" />
@@ -55,6 +61,26 @@
       <recent name="Modelo" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.directoryclothinginc.HelloApplication" />
+      <module name="DirectoryClothingInc." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.directoryclothinginc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="3444000" />
+      <workItem from="1658864596632" duration="8143000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -170,7 +196,91 @@
       <option name="project" value="LOCAL" />
       <updated>1658867735887</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Se enlaza AgregarCamisaAlCatalogo con su respectivo FXML">
+      <created>1658868116151</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658868116151</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Se crea el .java de Almacenamiento donde se conservaran todos los array de los datos de los usuarios, las camisas y los catalogos. Ademas contendra las funciones a utilizar para el correcto funcionamiento del programa">
+      <created>1658868462646</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658868462646</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Se crean los tres ArrayList de los tres distintos Modelos.">
+      <created>1658868646644</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658868646644</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Se crea la funcion de agregarCliente y el RevisarID para poder agregar el Cliente al pool.">
+      <created>1658868755151</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658868755151</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Se genera la funcion con el Click del boton en el AgregarClientes para implementar el FXML junto al Almacenamiento de los usuarios ingresados">
+      <created>1658869166294</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658869166294</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Se agrega la funcion  de agregarCamisa al Almacenamiento para utilizarla al agregar camisa con el FXML">
+      <created>1658869356857</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658869356857</updated>
+    </task>
+    <task id="LOCAL-00022" summary="El Click del boton FXML hace la funcionalidad de agregar camisas a la tabla predefinida en el FXML y posteriormente agregarlos al poolcamisas.">
+      <created>1658869574451</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1658869574451</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Se agrega la funcion de agregar Catalogo para que los datos a ingresar los ingrese en el poolcatalogo.">
+      <created>1658869928986</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1658869928986</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Se agregan el funcionamiento de los dos botones que posee el FXML, uno siendo el que registra el Catalogo y el otro el cual funciona para navegar entre Catalogo y AgregarCamisaAlCatalogo.">
+      <created>1658870179199</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1658870179199</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Se agrega las funciones de buscar el ID del Catalogo y de la Camisa para buscarlas y encontrarlas y verificar que no sean las mismas, ya que en el FXML de AgregarCamisaAlCatalogo necesitara dicha funcion para poder agregar las camisas a un catalogo en especifico">
+      <created>1658870290767</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658870290767</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Se agrega las funcionamiento del boton del AgregarCamisaAlCatalogo para agregar las camisas a un catalogo en especifico.">
+      <created>1658870378158</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658870378158</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Se arreglo ciertos errores en los fxml y el menu">
+      <created>1658871022704</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1658871022704</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +322,18 @@
     <MESSAGE value="Se enlaza AgregarClientes con su respectivo FXML" />
     <MESSAGE value="Se enlaza AgregarCatalogos con su respectivo FXML" />
     <MESSAGE value="Se enlaza AgregarCamisas con su respectivo FXML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se enlaza AgregarCamisas con su respectivo FXML" />
+    <MESSAGE value="Se enlaza AgregarCamisaAlCatalogo con su respectivo FXML" />
+    <MESSAGE value="Se crea el .java de Almacenamiento donde se conservaran todos los array de los datos de los usuarios, las camisas y los catalogos. Ademas contendra las funciones a utilizar para el correcto funcionamiento del programa" />
+    <MESSAGE value="Se crean los tres ArrayList de los tres distintos Modelos." />
+    <MESSAGE value="Se crea la funcion de agregarCliente y el RevisarID para poder agregar el Cliente al pool." />
+    <MESSAGE value="Se genera la funcion con el Click del boton en el AgregarClientes para implementar el FXML junto al Almacenamiento de los usuarios ingresados" />
+    <MESSAGE value="Se agrega la funcion  de agregarCamisa al Almacenamiento para utilizarla al agregar camisa con el FXML" />
+    <MESSAGE value="El Click del boton FXML hace la funcionalidad de agregar camisas a la tabla predefinida en el FXML y posteriormente agregarlos al poolcamisas." />
+    <MESSAGE value="Se agrega la funcion de agregar Catalogo para que los datos a ingresar los ingrese en el poolcatalogo." />
+    <MESSAGE value="Se agregan el funcionamiento de los dos botones que posee el FXML, uno siendo el que registra el Catalogo y el otro el cual funciona para navegar entre Catalogo y AgregarCamisaAlCatalogo." />
+    <MESSAGE value="Se agrega las funciones de buscar el ID del Catalogo y de la Camisa para buscarlas y encontrarlas y verificar que no sean las mismas, ya que en el FXML de AgregarCamisaAlCatalogo necesitara dicha funcion para poder agregar las camisas a un catalogo en especifico" />
+    <MESSAGE value="Se agrega las funcionamiento del boton del AgregarCamisaAlCatalogo para agregar las camisas a un catalogo en especifico." />
+    <MESSAGE value="Se arreglo ciertos errores en los fxml y el menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se arreglo ciertos errores en los fxml y el menu" />
   </component>
 </project>

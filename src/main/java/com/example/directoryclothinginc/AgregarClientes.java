@@ -1,5 +1,6 @@
 package com.example.directoryclothinginc;
 
+import Controlador.Almacenamiento;
 import Modelo.Usuarios;
 
 import javafx.collections.FXCollections;
@@ -21,7 +22,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
-public class AgregarClientes  {
+public class AgregarClientes implements Initializable {
 
     @FXML
     private TableColumn ColmApellido1;
@@ -67,7 +68,62 @@ public class AgregarClientes  {
 
     ObservableList<Usuarios> usuarios = FXCollections.observableArrayList();
 
+    @FXML
+    private void click(ActionEvent event) {
+        try {
+            String Nombre = this.txtNombre.getText();
+            String PrimerApellido = this.txtApellido1.getText();
+            String SegundoApellido = this.txtApellido2.getText();
+            String Direccion = this.txtDireccion.getText();
+            String Correo = this.txtCorreo.getText();
+            int ID = Integer.parseInt(this.txtID.getText());
+            boolean error = Almacenamiento.agregarCliente(Nombre,PrimerApellido, SegundoApellido, Direccion, Correo, ID);
 
+
+
+            if (error == false) {
+                for (Usuarios usuarioMostrar : Almacenamiento.poolusuarios) {
+                    this.usuarios.add(usuarioMostrar);
+                    tblUsusarios.getItems().clear();
+                    CargarDatos();
+                }
+
+
+
+            } else {
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setHeaderText(null);
+                alert.setTitle("Error");
+                alert.setContentText("Formato Incorrecto");
+                alert.showAndWait();
+            }
+        }catch (NumberFormatException e){
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setHeaderText(null);
+            alert.setTitle("Error");
+            alert.setContentText("Formato Incorrecto");
+            alert.showAndWait();
+        }
+
+
+
+
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        CargarDatos();
+    }
+    public void CargarDatos(){
+        usuarios.addAll(Almacenamiento.poolusuarios);
+        ColmNombre.setCellValueFactory(new PropertyValueFactory("nombre"));
+        ColmApellido1.setCellValueFactory(new PropertyValueFactory("apellido1"));
+        ColmApellido2.setCellValueFactory(new PropertyValueFactory("apellido2"));
+        ColmDireccion.setCellValueFactory(new PropertyValueFactory("direccion"));
+        ColmEmail.setCellValueFactory(new PropertyValueFactory("email"));
+        colmID.setCellValueFactory(new PropertyValueFactory("ID"));
+        tblUsusarios.setItems(usuarios);
+    }
 
 
 

@@ -8,4 +8,8 @@ module com.example.directoryclothinginc {
 
     opens com.example.directoryclothinginc to javafx.fxml;
     exports com.example.directoryclothinginc;
+    opens Controlador to javafx.fxml;
+    exports Controlador;
+    opens Modelo to javafx.fxml;
+    exports Modelo;
 }

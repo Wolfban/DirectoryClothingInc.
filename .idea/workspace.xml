@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se agrega el modelo Usuarios" />
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se enlaza el Menu controlador con el Menu FXML">
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/Menu.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="2152000" />
+      <workItem from="1658864596632" duration="2465000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -121,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658866469131</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Se crean todos los controladores de cada FXML creado anteriormente">
+      <created>1658866921055</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658866921055</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Se enlaza el Menu controlador con el Menu FXML">
+      <created>1658867031332</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658867031332</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +172,8 @@
     <MESSAGE value="Se agrega el modelo Camisas" />
     <MESSAGE value="Se agrega el modelo Catalogos" />
     <MESSAGE value="Se agrega el modelo Usuarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega el modelo Usuarios" />
+    <MESSAGE value="Se crean todos los controladores de cada FXML creado anteriormente" />
+    <MESSAGE value="Se enlaza el Menu controlador con el Menu FXML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se enlaza el Menu controlador con el Menu FXML" />
   </component>
 </project>

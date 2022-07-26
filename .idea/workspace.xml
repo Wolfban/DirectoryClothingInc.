@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se crean los tres ArrayList de los tres distintos Modelos.">
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" afterDir="false" />
-    </list>
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se genera la funcion con el Click del boton en el AgregarClientes para implementar el FXML junto al Almacenamiento de los usuarios ingresados" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="4047000" />
+      <workItem from="1658864596632" duration="4534000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -193,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658868646644</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Se crea la funcion de agregarCliente y el RevisarID para poder agregar el Cliente al pool.">
+      <created>1658868755151</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658868755151</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Se genera la funcion con el Click del boton en el AgregarClientes para implementar el FXML junto al Almacenamiento de los usuarios ingresados">
+      <created>1658869166294</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658869166294</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +250,8 @@
     <MESSAGE value="Se enlaza AgregarCamisaAlCatalogo con su respectivo FXML" />
     <MESSAGE value="Se crea el .java de Almacenamiento donde se conservaran todos los array de los datos de los usuarios, las camisas y los catalogos. Ademas contendra las funciones a utilizar para el correcto funcionamiento del programa" />
     <MESSAGE value="Se crean los tres ArrayList de los tres distintos Modelos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crean los tres ArrayList de los tres distintos Modelos." />
+    <MESSAGE value="Se crea la funcion de agregarCliente y el RevisarID para poder agregar el Cliente al pool." />
+    <MESSAGE value="Se genera la funcion con el Click del boton en el AgregarClientes para implementar el FXML junto al Almacenamiento de los usuarios ingresados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se genera la funcion con el Click del boton en el AgregarClientes para implementar el FXML junto al Almacenamiento de los usuarios ingresados" />
   </component>
 </project>

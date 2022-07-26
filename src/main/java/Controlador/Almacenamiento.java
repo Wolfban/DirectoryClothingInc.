@@ -33,4 +33,10 @@ public class Almacenamiento {
         }
         return hayError;
     }
+
+    public static boolean agregarCamisa (String nombre, float precios, String Descripcion, String Tamannio, int Id) {
+        Camisas camisanueva = new Camisas(nombre, precios, Descripcion, Tamannio, Id);
+        poolcamisas.add(camisanueva);
+        return false;
+    }
 }

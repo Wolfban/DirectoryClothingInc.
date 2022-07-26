@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="El Click del boton FXML hace la funcionalidad de agregar camisas a la tabla predefinida en el FXML y posteriormente agregarlos al poolcamisas.">
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" afterDir="false" />
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se agrega la funcion de agregar Catalogo para que los datos a ingresar los ingrese en el poolcatalogo.">
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisaAlCatalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisaAlCatalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCatalogos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCatalogos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="5138000" />
+      <workItem from="1658864596632" duration="5475000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658869574451</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Se agrega la funcion de agregar Catalogo para que los datos a ingresar los ingrese en el poolcatalogo.">
+      <created>1658869928986</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1658869928986</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +278,7 @@
     <MESSAGE value="Se genera la funcion con el Click del boton en el AgregarClientes para implementar el FXML junto al Almacenamiento de los usuarios ingresados" />
     <MESSAGE value="Se agrega la funcion  de agregarCamisa al Almacenamiento para utilizarla al agregar camisa con el FXML" />
     <MESSAGE value="El Click del boton FXML hace la funcionalidad de agregar camisas a la tabla predefinida en el FXML y posteriormente agregarlos al poolcamisas." />
-    <option name="LAST_COMMIT_MESSAGE" value="El Click del boton FXML hace la funcionalidad de agregar camisas a la tabla predefinida en el FXML y posteriormente agregarlos al poolcamisas." />
+    <MESSAGE value="Se agrega la funcion de agregar Catalogo para que los datos a ingresar los ingrese en el poolcatalogo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega la funcion de agregar Catalogo para que los datos a ingresar los ingrese en el poolcatalogo." />
   </component>
 </project>

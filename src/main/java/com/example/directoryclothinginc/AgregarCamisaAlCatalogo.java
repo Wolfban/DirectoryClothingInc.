@@ -26,4 +26,18 @@ public class AgregarCamisaAlCatalogo {
 
     @FXML
     private TextField txtIDCat;
+    public void closeWindows() throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("menu.fxml"));
+
+        Parent root = loader.load();
+        Object controlador = loader.getController();
+
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+
+        stage.setScene(scene);
+        stage.show();
+
+
+    }
 }

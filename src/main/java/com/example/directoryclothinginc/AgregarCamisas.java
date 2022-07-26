@@ -1,6 +1,7 @@
 package com.example.directoryclothinginc;
 
 
+import Controlador.Almacenamiento;
 import Modelo.Camisas;
 import Modelo.Usuarios;
 import javafx.collections.FXCollections;
@@ -20,7 +21,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.UUID;
 
-public class AgregarCamisas {
+public class AgregarCamisas implements Initializable {
 
     @FXML
     private Button btnCrear;
@@ -60,6 +61,56 @@ public class AgregarCamisas {
 
 
     ObservableList<Camisas> camisas = FXCollections.observableArrayList();
+    @FXML
+    void click(ActionEvent event) {
+        try {
+            String color = this.txtColor.getText();
+            String desc = this.txtDescripcion.getText();
+            float precios = Integer.parseInt(this.txtPrecio.getText());
+            String tamannio =this.txtTamannio.getText();
+            int id = (int) (Math.random()*(999999999-100000000+1)+100000000);
+            boolean error = Almacenamiento.agregarCamisa(color, precios, desc, tamannio, id);
+            if(error == false){
+                for (Camisas camisaMostrar: Almacenamiento.poolcamisas){
+                    this.camisas.add(camisaMostrar);
+                    tblCamisa.getItems().clear();
+                    CargarDatos();
+                }
+
+            } else {
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setHeaderText(null);
+                alert.setTitle("Error");
+                alert.setContentText("Formato Incorrecto");
+                alert.showAndWait();
+            }
+        } catch (NumberFormatException e) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setHeaderText(null);
+            alert.setTitle("Error");
+            alert.setContentText("Formato Incorrecto");
+            alert.showAndWait();
+        }
+
+    }
+
+
+
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        CargarDatos();
+    }
+
+    public void CargarDatos(){
+        camisas.addAll(Almacenamiento.poolcamisas);
+        coluDesc.setCellValueFactory(new PropertyValueFactory("desc"));
+        coluID.setCellValueFactory(new PropertyValueFactory("ID"));
+        coluColor.setCellValueFactory(new PropertyValueFactory("color"));
+        coluPrecio.setCellValueFactory(new PropertyValueFactory("precio"));
+        coluTamannio.setCellValueFactory(new PropertyValueFactory("tamannio"));
+        tblCamisa.setItems(camisas);
+    }
     public void closeWindows() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("menu.fxml"));
 

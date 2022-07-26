@@ -44,4 +44,35 @@ public class Almacenamiento {
         poolcatalogos.add(catalogonuevo);
         return false;
     }
+    public static int FindCami ( int IdCami){
+        int CamiFound = 0;
+        for (Camisas poolcamisa : poolcamisas) {
+            if (poolcamisa.getID() == IdCami) {
+                CamiFound = IdCami;
+
+            }
+        }
+        return CamiFound;
+    }
+    public static boolean agregarCamisetaCatalogo (int IdCami,int IdCat) {
+        boolean Error = false;
+        int CamienCat;
+        CamienCat = FindCami(IdCami);
+        if (CamienCat == 0) {
+            Error = true;
+
+        } else {
+            for (int i = 0; i < poolcatalogos.size(); i++) {
+                if (poolcatalogos.get(i).getID()==IdCat) {
+                    poolcatalogos.get(i).getCamisas().add(CamienCat);
+                } else {
+                    Error = true;
+                }
+            }
+
+        }
+
+        return Error;
+    }
+
 }

@@ -74,6 +74,10 @@ public class AgregarCamisas implements Initializable {
 
     private String Imagen = "";
 
+    /**
+     * La funcion realiza una busqueda de imagen
+     * @author Esteban Barrera
+     */
     public void buscarImagen() {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Buscar Imagen");
@@ -91,6 +95,12 @@ public class AgregarCamisas implements Initializable {
             Imagen = imgFile.toString();
         }
     }
+
+    /**
+     *La funcion al hacer click inicia la funcion buscarImagen();
+     * @author Esteban Barrera
+     * @param event Click
+     */
     @FXML
     void Click(ActionEvent event) {
         buscarImagen();
@@ -98,6 +108,12 @@ public class AgregarCamisas implements Initializable {
 
 
     ObservableList<Camisas> camisas = FXCollections.observableArrayList();
+
+    /**
+     * La funcion al hacer click se lee los datos agregados
+     * @author Esteban Barrera
+     * @param event click
+     */
     @FXML
     void click(ActionEvent event) {
         try {
@@ -132,13 +148,21 @@ public class AgregarCamisas implements Initializable {
     }
 
 
-
-
+    /**
+     * La funcion inicializa el cargarDatos();
+     * @author Esteban Barrera
+     * @param url recibe un dato URL
+     * @param resourceBundle recibe un dato resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         CargarDatos();
     }
 
+    /**
+     * La funcion agrega los datos en las tablas
+     * @author Esteban Barrera
+     */
     public void CargarDatos(){
         camisas.addAll(Almacenamiento.poolcamisas);
         coluDesc.setCellValueFactory(new PropertyValueFactory("desc"));
@@ -149,6 +173,12 @@ public class AgregarCamisas implements Initializable {
         coluTamannio.setCellValueFactory(new PropertyValueFactory("tamannio"));
         tblCamisa.setItems(camisas);
     }
+
+    /**
+     * La funcion al cerrar la ventana devovlerse al Menu
+     * @author Esteban Barrrera
+     * @throws IOException Signals that an I/O exception of some sort has occurred. This class is the general class of exceptions produced by failed or interrupted I/O operations.
+     */
     public void closeWindows() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("menu.fxml"));
 

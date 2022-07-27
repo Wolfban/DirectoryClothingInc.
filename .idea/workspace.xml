@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se arreglo ciertos errores en los fxml y el menu">
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Modelo/Camisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Modelo/Camisas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc/AgregarCamisa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc/AgregarCamisa.fxml" afterDir="false" />
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se agrega el JavaDoc de AgregarClientes">
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCatalogos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCatalogos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../DirectoryClothingInc" value="Controladores" />
+        <entry key="$PROJECT_DIR$/../DirectoryClothingInc" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DirectoryClothingInc" />
@@ -50,7 +46,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/ExtremeTech/Desktop/Tarea/tarea/DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,7 +88,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="8143000" />
+      <workItem from="1658864596632" duration="8560000" />
+      <workItem from="1658876392520" duration="1606000" />
+      <workItem from="1658878033129" duration="5317000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -280,7 +281,56 @@
       <option name="project" value="LOCAL" />
       <updated>1658871022704</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Se agrego la funcionalidad de agregar imagen en el registro de las Camisas">
+      <created>1658872947584</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1658872947584</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Se agrega el JavaDoc de Almacenamiento">
+      <created>1658886641844</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1658886641844</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Se agrega el JavaDoc de AgregarCamisaAlCatalogo">
+      <created>1658886986528</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1658886986528</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Se agrega el JavaDoc de Menu">
+      <created>1658887353437</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1658887353437</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Se agrega el JavaDoc de AgregarCamisas">
+      <created>1658888071728</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1658888071729</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Se agrega el JavaDoc de HelloApplication">
+      <created>1658888274797</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1658888274797</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Se agrega el JavaDoc de AgregarClientes">
+      <created>1658888540219</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1658888540219</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,12 +360,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Se agregan los FXML a utilizar en el proyecto" />
-    <MESSAGE value="Se agregan los modelos de los objetos a usar en el proyecto, los cuales son: Camisas, Catalogos y los Usuarios." />
-    <MESSAGE value="Se agrega el modelo Camisas" />
-    <MESSAGE value="Se agrega el modelo Catalogos" />
-    <MESSAGE value="Se agrega el modelo Usuarios" />
-    <MESSAGE value="Se crean todos los controladores de cada FXML creado anteriormente" />
     <MESSAGE value="Se enlaza el Menu controlador con el Menu FXML" />
     <MESSAGE value="Se agrega la funcion del click de cada boton del Menu y se enlaza las funciones de cerrar las ventanas al tocar la X en el fxml" />
     <MESSAGE value="Se le actualiza el HelloApplication para el funcionamiento correcto de la ventana inicial." />
@@ -334,6 +378,13 @@
     <MESSAGE value="Se agrega las funciones de buscar el ID del Catalogo y de la Camisa para buscarlas y encontrarlas y verificar que no sean las mismas, ya que en el FXML de AgregarCamisaAlCatalogo necesitara dicha funcion para poder agregar las camisas a un catalogo en especifico" />
     <MESSAGE value="Se agrega las funcionamiento del boton del AgregarCamisaAlCatalogo para agregar las camisas a un catalogo en especifico." />
     <MESSAGE value="Se arreglo ciertos errores en los fxml y el menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se arreglo ciertos errores en los fxml y el menu" />
+    <MESSAGE value="Se agrego la funcionalidad de agregar imagen en el registro de las Camisas" />
+    <MESSAGE value="Se agrega el JavaDoc de Almacenamiento" />
+    <MESSAGE value="Se agrega el JavaDoc de AgregarCamisaAlCatalogo" />
+    <MESSAGE value="Se agrega el JavaDoc de Menu" />
+    <MESSAGE value="Se agrega el JavaDoc de AgregarCamisas" />
+    <MESSAGE value="Se agrega el JavaDoc de HelloApplication" />
+    <MESSAGE value="Se agrega el JavaDoc de AgregarClientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega el JavaDoc de AgregarClientes" />
   </component>
 </project>

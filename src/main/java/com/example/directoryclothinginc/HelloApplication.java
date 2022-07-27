@@ -11,7 +11,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class HelloApplication extends Application {
-
+    /**
+     * Las funcion se empieza el programa
+     * @author Esteban Barrera
+     * @param primaryStage recibe dato tipo Stage
+     */
     @Override
     public void start(Stage primaryStage) {
 
@@ -34,7 +38,11 @@ public class HelloApplication extends Application {
         }
     }
 
-
+    /**
+     * La funcion hace el lauch del programa
+     * @author Esteban Barrera
+     * @param args launch del programa
+     */
     public static void main(String[] args) {
         launch(args);
     }

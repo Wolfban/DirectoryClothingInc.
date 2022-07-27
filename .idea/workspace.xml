@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se arreglo ciertos errores en los fxml y el menu">
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se agrego la funcionalidad de agregar imagen en el registro de las Camisas">
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Modelo/Camisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Modelo/Camisas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc/AgregarCamisa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc/AgregarCamisa.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../DirectoryClothingInc" value="Controladores" />
+        <entry key="$PROJECT_DIR$/../DirectoryClothingInc" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DirectoryClothingInc" />
@@ -50,7 +48,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/ExtremeTech/Desktop/Tarea/tarea/DirectoryClothingInc/src/main/resources/com/example/directoryclothinginc",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,7 +90,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658864595307</updated>
-      <workItem from="1658864596632" duration="8143000" />
+      <workItem from="1658864596632" duration="8560000" />
+      <workItem from="1658876392520" duration="1606000" />
+      <workItem from="1658878033129" duration="3338000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -280,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658871022704</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Se agrego la funcionalidad de agregar imagen en el registro de las Camisas">
+      <created>1658872947584</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1658872947584</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +344,7 @@
     <MESSAGE value="Se agrega las funciones de buscar el ID del Catalogo y de la Camisa para buscarlas y encontrarlas y verificar que no sean las mismas, ya que en el FXML de AgregarCamisaAlCatalogo necesitara dicha funcion para poder agregar las camisas a un catalogo en especifico" />
     <MESSAGE value="Se agrega las funcionamiento del boton del AgregarCamisaAlCatalogo para agregar las camisas a un catalogo en especifico." />
     <MESSAGE value="Se arreglo ciertos errores en los fxml y el menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se arreglo ciertos errores en los fxml y el menu" />
+    <MESSAGE value="Se agrego la funcionalidad de agregar imagen en el registro de las Camisas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrego la funcionalidad de agregar imagen en el registro de las Camisas" />
   </component>
 </project>

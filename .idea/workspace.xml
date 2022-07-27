@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se agrega el JavaDoc de HelloApplication">
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarClientes.java" afterDir="false" />
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se agrega el JavaDoc de AgregarClientes">
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCatalogos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCatalogos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <updated>1658864595307</updated>
       <workItem from="1658864596632" duration="8560000" />
       <workItem from="1658876392520" duration="1606000" />
-      <workItem from="1658878033129" duration="5018000" />
+      <workItem from="1658878033129" duration="5317000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -323,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658888274797</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Se agrega el JavaDoc de AgregarClientes">
+      <created>1658888540219</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1658888540219</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +360,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Se crean todos los controladores de cada FXML creado anteriormente" />
     <MESSAGE value="Se enlaza el Menu controlador con el Menu FXML" />
     <MESSAGE value="Se agrega la funcion del click de cada boton del Menu y se enlaza las funciones de cerrar las ventanas al tocar la X en el fxml" />
     <MESSAGE value="Se le actualiza el HelloApplication para el funcionamiento correcto de la ventana inicial." />
@@ -378,6 +384,7 @@
     <MESSAGE value="Se agrega el JavaDoc de Menu" />
     <MESSAGE value="Se agrega el JavaDoc de AgregarCamisas" />
     <MESSAGE value="Se agrega el JavaDoc de HelloApplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega el JavaDoc de HelloApplication" />
+    <MESSAGE value="Se agrega el JavaDoc de AgregarClientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega el JavaDoc de AgregarClientes" />
   </component>
 </project>

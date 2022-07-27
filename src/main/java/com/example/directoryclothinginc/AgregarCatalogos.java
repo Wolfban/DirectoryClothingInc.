@@ -50,6 +50,13 @@ public class AgregarCatalogos implements Initializable  {
     private TextField txtNombre;
 
     ObservableList<Catalogos> catalogos = FXCollections.observableArrayList();
+
+    /**
+     * Las funcion al hacer click se envia al AgregarCamisaAlCatalogo.fxml
+     * @author Esteban Barrera
+     * @param event Click
+     * @throws IOException Signals that an I/O exception of some sort has occurred. This class is the general class of exceptions produced by failed or interrupted I/O operations.
+     */
     @FXML
     void click(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("AgregarCamisaAlCatalogo.fxml"));
@@ -74,6 +81,11 @@ public class AgregarCatalogos implements Initializable  {
         myStage.close();
     }
 
+    /**
+     * La funcion click lee los datos ingresados  y agrega un Id random
+     * @author Esteban Barrera
+     * @param event Click
+     */
     @FXML
     private void Click(ActionEvent event) {
         try {
@@ -108,11 +120,20 @@ public class AgregarCatalogos implements Initializable  {
 
     }
 
-
+    /**
+     * La funcion inicializa el CargarDatos();
+     * @author Esteban Barrera
+     * @param url Recibe URL
+     * @param resourceBundle recibe resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         CargarDatos();
     }
+    /**
+     * La funcion CargarDatos(); agrega los datos leidos y los ingresa a la tabla
+     * @author Esteban Barrera
+     */
     public void CargarDatos(){
         catalogos.addAll(Almacenamiento.poolcatalogos);
         colmFecha.setCellValueFactory(new PropertyValueFactory("fechaCreacion"));
@@ -121,6 +142,11 @@ public class AgregarCatalogos implements Initializable  {
         columIDCat.setCellValueFactory(new PropertyValueFactory("ID"));
         tblCatalogo.setItems(catalogos);
     }
+    /**
+     * La funcion closeWindows(); al cerrar la aplicacion se devuelve al menu
+     * @author Esteban Barrera
+     * @throws IOException Signals that an I/O exception of some sort has occurred. This class is the general class of exceptions produced by failed or interrupted I/O operations.
+     */
     public void closeWindows() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("menu.fxml"));
 

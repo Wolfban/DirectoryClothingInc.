@@ -17,6 +17,11 @@ import java.util.ResourceBundle;
 
 
 public class Menu implements Initializable {
+    /**
+     * @author Esteban Barrera
+     * @param url recibe un parametro URL
+     * @param resourceBundle recibe un parametro resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
@@ -30,6 +35,13 @@ public class Menu implements Initializable {
 
     @FXML
     private Button btnClientes;
+
+    /**
+     * Al hacer Click se dirige al fxml de AgregarCamisa
+     * @author Esteban Barrera
+     * @param event recibe el Click como evento
+     * @throws IOException Signals that an I/O exception of some sort has occurred. This class is the general class of exceptions produced by failed or interrupted I/O operations.
+     */
 
     @FXML
     void CLICK(ActionEvent event) throws IOException {
@@ -63,6 +75,12 @@ public class Menu implements Initializable {
         myStage.close();
     }
 
+    /**
+     * Al hacer Click se dirige al fxml de AgregarCliente
+     * @author Esteban Barrera
+     * @param event Recibe Click como evento
+     * @throws IOException Signals that an I/O exception of some sort has occurred. This class is the general class of exceptions produced by failed or interrupted I/O operations.
+     */
     @FXML
     void Click(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("AgregarCliente.fxml"));
@@ -95,7 +113,12 @@ public class Menu implements Initializable {
         myStage.close();
     }
 
-
+    /**
+     * Al hacer Click se dirige al fxml de AgregarCatalogo
+     * @author Esteban Barrera
+     * @param event Recibe click como evento
+     * @throws IOException Signals that an I/O exception of some sort has occurred. This class is the general class of exceptions produced by failed or interrupted I/O operations.
+     */
     @FXML
     void click (ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("AgregarCatalogos.fxml"));

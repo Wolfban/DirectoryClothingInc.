@@ -68,6 +68,11 @@ public class AgregarClientes implements Initializable {
 
     ObservableList<Usuarios> usuarios = FXCollections.observableArrayList();
 
+    /**
+     * La funcion click lee los datos ingresados en la aplicacion
+     * @author Esteban Barrera
+     * @param event Click
+     */
     @FXML
     private void click(ActionEvent event) {
         try {
@@ -110,10 +115,21 @@ public class AgregarClientes implements Initializable {
 
     }
 
+    /**
+     * La funcion inicializa el CargarDatos();
+     * @author Esteban Barrera
+     * @param url Recibe URL
+     * @param resourceBundle recibe resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         CargarDatos();
     }
+
+    /**
+     * La funcion CargarDatos(); agrega los datos leidos y los ingresa a la tabla
+     * @author Esteban Barrera
+     */
     public void CargarDatos(){
         usuarios.addAll(Almacenamiento.poolusuarios);
         ColmNombre.setCellValueFactory(new PropertyValueFactory("nombre"));
@@ -126,7 +142,11 @@ public class AgregarClientes implements Initializable {
     }
 
 
-
+    /**
+     * La funcion closeWindows(); al cerrar la aplicacion se devuelve al menu
+     * @author Esteban Barrera
+     * @throws IOException Signals that an I/O exception of some sort has occurred. This class is the general class of exceptions produced by failed or interrupted I/O operations.
+     */
     public void closeWindows() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("menu.fxml"));
 

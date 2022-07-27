@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se agrego la funcionalidad de agregar imagen en el registro de las Camisas">
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/Controlador/Almacenamiento.java" afterDir="false" />
+    <list default="true" id="47f92693-0c9a-4425-84a6-6d5947ac9ce7" name="Changes" comment="Se agrega el JavaDoc de Almacenamiento">
+      <change beforePath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisaAlCatalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DirectoryClothingInc/src/main/java/com/example/directoryclothinginc/AgregarCamisaAlCatalogo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <updated>1658864595307</updated>
       <workItem from="1658864596632" duration="8560000" />
       <workItem from="1658876392520" duration="1606000" />
-      <workItem from="1658878033129" duration="3338000" />
+      <workItem from="1658878033129" duration="3684000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregan los FXML a utilizar en el proyecto">
       <created>1658865330287</created>
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658872947584</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Se agrega el JavaDoc de Almacenamiento">
+      <created>1658886641844</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1658886641844</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +325,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Se agregan los FXML a utilizar en el proyecto" />
     <MESSAGE value="Se agregan los modelos de los objetos a usar en el proyecto, los cuales son: Camisas, Catalogos y los Usuarios." />
     <MESSAGE value="Se agrega el modelo Camisas" />
     <MESSAGE value="Se agrega el modelo Catalogos" />
@@ -345,6 +349,7 @@
     <MESSAGE value="Se agrega las funcionamiento del boton del AgregarCamisaAlCatalogo para agregar las camisas a un catalogo en especifico." />
     <MESSAGE value="Se arreglo ciertos errores en los fxml y el menu" />
     <MESSAGE value="Se agrego la funcionalidad de agregar imagen en el registro de las Camisas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego la funcionalidad de agregar imagen en el registro de las Camisas" />
+    <MESSAGE value="Se agrega el JavaDoc de Almacenamiento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega el JavaDoc de Almacenamiento" />
   </component>
 </project>

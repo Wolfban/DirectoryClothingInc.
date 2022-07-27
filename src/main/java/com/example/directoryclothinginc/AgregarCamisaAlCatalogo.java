@@ -19,6 +19,7 @@ import java.util.ResourceBundle;
 
 public class AgregarCamisaAlCatalogo implements  Initializable {
 
+
     @FXML
     private Button btnAgregar;
 
@@ -27,6 +28,12 @@ public class AgregarCamisaAlCatalogo implements  Initializable {
 
     @FXML
     private TextField txtIDCat;
+
+    /**
+     * La funcion Action event lo que realiza es revisar si se efectua el click y realiza la funcion correspondiente
+     * @author Esteban Barrera
+     * @param event click
+     */
 
     @FXML
     void click(ActionEvent event) {
@@ -53,11 +60,21 @@ public class AgregarCamisaAlCatalogo implements  Initializable {
         }
     }
 
+    /**
+     * @author Esteban Barrera
+     * @param url recibe un parametro tipo URL
+     * @param resourceBundle recibe un parametro tipo resourceBundle
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
 
+    /**
+     * La funcion es para cerrar la ventana y devolverse a la pagina menu
+     * @author Esteban Barrera
+     * @throws IOException Signals that an I/O exception of some sort has occurred. This class is the general class of exceptions produced by failed or interrupted I/O operations.
+     */
     public void closeWindows() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("menu.fxml"));
 
